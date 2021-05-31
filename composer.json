@@ -1,0 +1,27 @@
+{
+	"name": "pessek/hypeslug",
+	"type": "elgg-plugin",
+	"description": "Slugs for Elgg posts",
+	"keywords": [
+		"elgg", "plugin", "slug"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeSlug"
+	},
+	"require": {
+		"php": ">=7.0",
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
